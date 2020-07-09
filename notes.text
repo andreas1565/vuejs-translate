@@ -1,0 +1,11 @@
+SERVE:
+npm run serve -- --mode DK
+npm run serve -- --mode en
+
+build
+npm run build -- --mode dk
+npm run build -- --mode en
+
+with you will Deploy usen firebase
+firebase use Something
+npm run build -- --mode dk && firebase deploy --only hosting:DK
